@@ -405,6 +405,9 @@ footer span a:hover{
     .max-width{
         max-width: 930px;
     }
+    .contact{
+        padding: 0px !important;
+    }
     .about .about-content .column{
         width: 100%;
     }
