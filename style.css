@@ -429,10 +429,7 @@ footer span a:hover{
         margin-bottom: 35px !important;
     }
 }
-    footer{
-        font-size: 12px !important;
-    }
-
+   
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -449,6 +446,10 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    footer{
+        font-size: 12px !important;
+    }
+
 }
 
 @media (max-width: 500px) {
