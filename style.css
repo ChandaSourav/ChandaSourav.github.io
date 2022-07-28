@@ -429,6 +429,9 @@ footer span a:hover{
         margin-bottom: 35px !important;
     }
 }
+    footer{
+        font-size: 12px;
+    }
 
 @media (max-width: 690px) {
     .max-width{
