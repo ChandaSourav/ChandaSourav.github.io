@@ -257,8 +257,25 @@ section .title::after{
 	text-align: justify;
 	margin: 80px auto;
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgb(191, 11, 11)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
-	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(233, 12, 12) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(233, 12, 12) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);   
 }
+@keyframes glowing {
+    0% {
+      background-color: crimson;
+      box-shadow: 0 0 5px crimson;
+    }
+    50% {
+      background-color: crimson;
+      box-shadow: 0 0 20px crimson;
+    }
+    100% {
+      background-color: crimson;
+      box-shadow: 0 0 5px crimson;
+    }
+  }
+  .timeline li {
+    animation: glowing 1300ms infinite;
+  }
 
 .timeline:after {display: inline-block; content: ""; width: 100%;}
 
