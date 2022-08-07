@@ -545,11 +545,11 @@ footer span a:hover{
     }
     
     .timeline li:nth-child(odd):before {
-        transform: rotate(90deg);
+        transform: rotate(270deg);
         top: -40px;
     }
     .timeline li:nth-child(even):before {
-        transform: rotate(90deg);
+        transform: rotate(270deg);
         bottom: -40px;
     }
     
