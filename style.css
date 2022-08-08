@@ -372,6 +372,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .contact{
+    padding: 0;
     background-color: black;
 }
 .contact .title::after{
