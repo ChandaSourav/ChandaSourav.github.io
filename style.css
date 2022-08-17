@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+:root {
+    --theme: #71FCAA;
+}
 *{
     margin: 0;
     padding: 0;
@@ -66,7 +69,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: var(--theme);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -93,7 +96,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: var(--theme);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -112,7 +115,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: var(--theme);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -127,7 +130,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: var(--theme);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -180,23 +183,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: var(--theme);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: var(--theme);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid var(--theme);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: var(--theme);
     background: none;
 }
 .about{
@@ -225,25 +228,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: var(--theme);
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: var(--theme);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid var(--theme);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: var(--theme);
     background: none;
 }
 .progressbar{
@@ -256,21 +259,21 @@ section .title::after{
 	list-style: none;
 	text-align: justify;
 	margin: 80px auto;
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgb(191, 11, 11)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
-	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(233, 12, 12) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);   
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgb(84, 224, 119)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+	background: linear-gradient(to bottom, rgba(53, 212, 88, 0) 0%, rgba(255,255,255,0) 45%, rgb(84, 224, 119) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);   
 }
 @keyframes glowing {
     0% {
-      background-color: crimson;
-      box-shadow: 0 0 5px crimson;
+      background-color: var(--theme);
+      box-shadow: 0 0 5px var(--theme);
     }
     50% {
-      background-color: crimson;
-      box-shadow: 0 0 20px crimson;
+      background-color: var(--theme);
+      box-shadow: 0 0 20px var(--theme);
     }
     100% {
-      background-color: crimson;
-      box-shadow: 0 0 5px crimson;
+      background-color: var(--theme);
+      box-shadow: 0 0 5px var(--theme);
     }
   }
   .timeline li {
@@ -283,7 +286,7 @@ section .title::after{
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background: crimson;
+	background: var(--theme);
 	text-align: center;
 	line-height: 1.2;
 	position: relative;
@@ -350,7 +353,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: var(--theme);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -360,7 +363,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: var(--theme);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -406,7 +409,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: var(--theme);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -420,7 +423,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: var(--theme);
     text-decoration: none;
 }
 footer span a:hover{
@@ -518,8 +521,8 @@ footer span a:hover{
         list-style: none;
         text-align: justify;
         margin: 80px auto;
-        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgb(191, 11, 11)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
-        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(233, 12, 12) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(45%, rgba(255,255,255,0)), color-stop(51%, rgb(84, 224, 119)), color-stop(57%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgb(84, 224, 119) 51%, rgba(255,255,255,0) 57%, rgba(255,255,255,0) 100%);
     }
     
     .timeline:after {display: inline-block; content: ""; width: 100%;}
@@ -528,7 +531,7 @@ footer span a:hover{
         display: inline-block;
         width: 20px;
         height: 20px;
-        background: crimson;
+        background: var(--theme);
         text-align: center;
         line-height: 1.2;
         position: relative;
