@@ -287,6 +287,7 @@ section .title::after{
 	width: 20px;
 	height: 20px;
 	background: var(--theme);
+    font-family: 'Poppins', sans-serif;
 	text-align: center;
 	line-height: 1.2;
 	position: relative;
