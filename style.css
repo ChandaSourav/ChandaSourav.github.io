@@ -582,6 +582,33 @@ footer span a:hover{
 }
    
 @media (max-width: 690px) {
+    .home{
+        display: flex;
+        background: url("images/profile-3.png") no-repeat center;
+        height: 100vh;
+        color: #fff;
+        min-height: 400px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .home .home-content .text-1{
+        font-size: 24px;
+        margin-top: 370px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+        margin: 5px 0;
+    }
+    .home .home-content .text-3 span{
+        color: var(--theme);
+        font-weight: 500;
+    }
     .max-width{
         padding: 0 23px;
     }
