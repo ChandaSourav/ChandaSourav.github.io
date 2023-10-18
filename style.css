@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -171,14 +171,17 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
+    color: #71FCAA;
     font-size: 27px;
 }
 .home .home-content .text-2{
+    color: #71FCAA;
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
 .home .home-content .text-3{
+    color: #71FCAA;
     font-size: 40px;
     margin: 5px 0;
 }
@@ -253,6 +256,15 @@ section .title::after{
     background-color:black; 
 }
 
+
+.progressbar .title::before{
+    background: #fff;
+}
+.progressbar .title::after{
+    background: black;
+    content: "my journey";
+}
+
 .timeline {
 	width:800px;
 	height: 20px;
@@ -283,6 +295,7 @@ section .title::after{
 .timeline:after {display: inline-block; content: ""; width: 100%;}
 
 .timeline li {
+    font-size: 16px;
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -341,7 +354,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: black;
     content: "what i provide";
 }
 .services .serv-content .card{
