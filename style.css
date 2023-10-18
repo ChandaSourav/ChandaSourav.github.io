@@ -564,11 +564,11 @@ footer span a:hover{
     
     .timeline li:nth-child(odd):before {
         transform: rotate(270deg);
-        top: -40px;
+        /* top: -40px; */
     }
     .timeline li:nth-child(even):before {
         transform: rotate(270deg);
-        bottom: -40px;
+        /* bottom: -40px; */
     }
     
     .timeline li:after {
@@ -584,7 +584,7 @@ footer span a:hover{
     .timeline li:nth-child(odd):after {
         bottom: 0;
         margin-bottom: -10px;
-        transform: translate(-50%, 170%)rotate(270deg);
+        transform: translate(-50%, 110%)rotate(270deg);
     }
     .timeline li:nth-child(even):after {
         top: 0;
