@@ -171,17 +171,14 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
-    color: #71FCAA;
     font-size: 27px;
 }
 .home .home-content .text-2{
-    color: #71FCAA;
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
 .home .home-content .text-3{
-    color: #71FCAA;
     font-size: 40px;
     margin: 5px 0;
 }
@@ -606,15 +603,18 @@ footer span a:hover{
         font-family: 'Ubuntu', sans-serif;
     }
     .home .home-content .text-1{
+        color: #71FCAA;
         font-size: 24px;
         margin-top: 370px;
     }
     .home .home-content .text-2{
+        color: #71FCAA;
         font-size: 40px;
         font-weight: 600;
         margin-left: -3px;
     }
     .home .home-content .text-3{
+        color: #71FCAA;
         font-size: 27px;
         margin: 5px 0;
     }
