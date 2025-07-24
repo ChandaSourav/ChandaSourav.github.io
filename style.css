@@ -506,6 +506,7 @@ footer span a:hover{
     }
     .about .about-content .column{
         width: 100%;
+	margin: 0px;
     }
     .about .about-content .left{
         display: flex;
@@ -650,6 +651,7 @@ footer span a:hover{
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
+	margin: 0px;
     }
 
     .scroll-up-btn{
