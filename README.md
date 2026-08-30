@@ -1,23 +1,2 @@
-# Sourav Chanda Portfolio
+<img width="1341" height="641" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/4c2913ad-f189-422c-806d-4e243af6ed4e" />
 
-```text
-.
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── profile.png
-└── README.md
-```
-
-The profile image is a normal asset:
-
-```html
-<img src="assets/profile.png" alt="Sourav Chanda">
-```
-
-Its original black background has been removed so the portfolio's dark purple/cyan background can show through naturally.
-
-Upload the complete folder to GitHub and enable GitHub Pages from `main` / root.
