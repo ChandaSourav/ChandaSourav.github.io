@@ -1,174 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Modern animated developer portfolio">
+<title>Sourav Chanda — Developer Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#timeline" class="menu-btn">Timeline</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Sourav Chanda</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="mailto:souravchanda601@gmail.com?body=Hi,I found this website and I would like to have a talk with u." target="_blank" class="chatBtn" style="color: rgb(250, 243, 245);">Hire me!</a>
-            </div>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title" style="color: #ffffff;">About me</h2>
-            <div class="about-content" style= "margin-bottom: -200px;">
-                <div class="column left">
-                    <img src="images/profile-2.jpeg" style="border-radius: 50%;filter: grayscale(100%);    margin-top: -180px;">
-                </div>
-                <div class="column right" style="margin-bottom:200px;">
-                    <div class="text">I'm Sourav and I'm a <span class="typing-2"></span></div>
-                    <p>I have completed my Secondary Education(10th) under WBBSE then completed my Higher Secondary Education(12th) under WBCHSE then completed my Diploma under WBSCT&VE&SD(WBSCTE).I have completed my B.Tech under MAKAUT(WBUT).I have completed my M.Tech under University of Calcutta(Calcutta University).</p>
-                    <p>I am currently developed some projects and Also interest in Machine learning and DNA cryptography.I am still learning to gain new things and also interested in Research-Oriented work.</p><br>                    
-                    <ul>
-                        <li>No of Publication : 02+</li>
-                        <li>No of Patents : NA</li>
-                        <li>Special Interest : Full Stack Development, Artificial intelligence, Machine learning, Deep Learning,Cryptography</li>
-                    </ul>
-                    <a href="CV/Sourav Chanda.pdf" target="_blank" class="chatBtn">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </section>       
-    <section class="progressbar" id="timeline">
-        <div>
-            <h2 class="title"style="color: #ffffff; font-family: 'Ubuntu', sans-serif;font-size:40px;text-align:center;padding-top: 10px;background-color: black;">My Timeline</h2>
-        </div><br><br><br><br><br>
-        <div class="rt-container">
-            <div class="col-rt-12">
-                <div class="Scriptcontent">
-                    <ul class="timeline">
-                        <li style="animation: none;"data-year="2015" data-text="Secondary Education under WBBSE"></li>
-                        <li style="animation: none;"data-year="2017" data-text="Higher Secondary Education under WBCHSE"></li>
-                        <li style="animation: none;"data-year="2020" data-text="Diploma in Computer Science & Technology under WBSCT&VE&SD(WBSCTE)"></li>
-                        <li style="animation: none;"data-year="2023" data-text="B.Tech in Computer Science & Engineering under MAKAUT(WBUT)"></li>
-                        <li style="animation: none;"data-year="2025" data-text="M.Tech in Computer Science & Engineering under University of Calcutta(Calcutta University)"></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Design</div>
-                        <p>Create cool products with unique ideas</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Front-End</div>
-                        <p>I develope front-end with coding super smooth</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Back-End</div>
-                        <p>Awesome backend with cool projects</p>
-                    </div>
-                </div>
-               </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title" style="color: #fff;">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>If you interest my profile then contact here! </p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Sourav Chanda</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">kolkata, India</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">souravchanda601@gmail.com</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column right" style="margin-bottom: 180px;">
-                    <div class="text">Find me on</div>
-                    <div class="#">
-                        <div class="row" style="justify-content: space-around;">
-                            <a href="https://www.linkedin.com/in/sourav-chanda/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                            <a href="https://x.com/_SouravChanda_" target="_blank" rel="noopener noreferrer" aria-label="Twitter" style="color: #71FCAA;">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#71FCAA" viewBox="0 0 16 16">
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                              </svg>
-                            </a>
-                            <a href="https://github.com/ChandaSourav"><i class="fab fa-github" aria-hidden="true"></i></a>
-                            <a href="https://www.facebook.com/souravchanda.chanda.7"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/souravchanda01/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&hl=en&user=oq0PSQwAAAAJ&authuser=1"><i class="ai ai-google-scholar-square ai-3x" aria-hidden="true"></i></a>
-                            <a href="https://www.researchgate.net/profile/Sourav-Chanda"><i class="fab fa-researchgate" aria-hidden="true"></i></a>                            
-                        </div>
-                        <div class="buymeacoffee">
-                            <p><a href="https://www.buymeacoffee.com/souravchanda"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" height="50" width="210" alt="Sourav Chanda" /></a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <span>Created By <span style="color:var(--theme) ;">SouravChanda</span> | <span class="far fa-copyright"></span> 2022-25 All rights reserved.</span>
-    </footer>
+<nav>
+  <a class="logo" href="#home">Portfolio<span>.</span></a>
+  <div class="navlinks" id="navlinks">
+    <a href="#about">About</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#contact">Contact</a>
+  </div>
+  <button class="menu" id="menu">☰</button>
+</nav>
 
-    <script src="script.js"></script>
+<main id="home">
+
+<div aria-hidden="true" class="floating-particle" style="left:12%;top:24%;animation-delay:.4s"></div>
+<div aria-hidden="true" class="floating-particle" style="right:15%;top:31%;animation-delay:2s"></div>
+<div aria-hidden="true" class="floating-particle" style="left:8%;top:63%;animation-delay:4s"></div>
+<div aria-hidden="true" class="floating-particle" style="right:8%;top:70%;animation-delay:1.5s"></div>
+
+<section class="hero">
+  <div class="orb"></div>
+  <div class="hero-inner">
+<div class="badge"><span class="dot"></span> Open to internships, projects & opportunities</div>
+    <h1>Building digital<br><span class="gradient">experiences.</span></h1>
+    <p>I’m Sourav Chanda, a developer who turns ambitious ideas into fast, beautiful and useful products.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">View my work ↗</a>
+      <a class="btn" href="#contact">Let's talk</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+<div class="container">
+ <div class="section-head"><div><div class="eyebrow">01 — About</div><h2>A little about me.</h2></div><p class="section-desc">Curious by nature, detail-oriented by choice, and always looking for the next interesting problem to solve.</p></div>
+  <div class="about">
+   <div class="card about-text about-profile-card">
+    <div class="about-description">
+      I’m a <strong>Computer Science & Engineering professional</strong> with a strong interest in AI/ML, software development, and full-stack development. I enjoy exploring modern technologies and building practical, polished applications, combining thoughtful design with clean engineering to turn ideas into useful digital experiences.
+    </div>
+    <div class="about-profile">
+      <div class="about-profile-glow"></div>
+      <img src="assets/profile.png" alt="Sourav Chanda">
+    </div>
+   </div>
+   <div class="card"><div class="stats"><div class="stat"><b>02+</b><span>Research publications</span></div><div class="stat"><b>Generalist</b><span>Software Development</span></div><div class="stat"><b>AI/ML</b><span>Learning & Research</span></div><div class="stat"><b>Full</b><span>Stack Development</span></div></div></div>
+  </div>
+ </div>
+  <div class="skills-categories">
+
+    <div class="skill-category">
+      <h3>Languages</h3>
+      <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">C-Programming</span>
+        <span class="skill">PHP</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Frameworks & Libraries</h3>
+      <div class="skills">
+        <span class="skill">Git</span>
+        <span class="skill">TensorFlow</span>
+        <span class="skill">Scikit-Learn</span>
+        <span class="skill">PyTorch</span>
+        <span class="skill">NumPy</span>
+        <span class="skill">Pandas</span>
+        <span class="skill">Matplotlib</span>
+        <span class="skill">Flask</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools</h3>
+      <div class="skills">
+        <span class="skill">Git</span>
+        <span class="skill">Windows</span>
+        <span class="skill">Linux</span>
+        <span class="skill">Visual Studio Code</span>
+        <span class="skill">XAMPP</span>
+        <span class="skill">GIMP</span>
+        <span class="skill">Microsoft Office</span>
+        <span class="skill">Adobe Acrobat Pro</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Others</h3>
+      <div class="skills">
+        <span class="skill">Hardware &amp; Troubleshooting</span>
+        <span class="skill">System Administration</span>
+        <span class="skill">SEO</span>
+        <span class="skill">Technical Research</span>
+        <span class="skill">Cloud &amp; Deployment</span>
+        <span class="skill">Cybersecurity Basics</span>
+        <span class="skill">Database Management</span>
+        <span class="skill">Editing &amp; More</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="projects" class="reveal">
+<div class="container">
+ <div class="section-head"><div><div class="eyebrow">02 — Selected work</div><h2>Things I’ve built.</h2></div><p class="section-desc">A few projects that show how I approach product, design and engineering.</p></div>
+
+ <div class="projects">
+
+  <article class="card project">
+   <div>
+    <div class="project-top">
+     <img src="assets/logo_1.png" alt="Blood Cancer Research">
+    </div>
+    <h3>Prediction of Blood Cancer using DNA Sequences Derived from Histology Images</h3>
+    <p>Invented a new set of techniques to implement Image to DNA Convert and Cancer Prediction.</p>
+    <div class="tags">
+     <span class="tag">Python</span>
+     <span class="tag">Data Science</span>
+     <span class="tag">Deep Learning</span>
+     <span class="tag">PyTorch</span>
+    </div>
+   </div>
+   <br>
+   <a class="btn" href="#contact">Case study ↗</a>
+  </article>
+
+  <article class="card project">
+   <div>
+    <div class="project-top">
+     <img src="assets/logo_2.png" alt="DNA Cryptography">
+    </div>
+    <h3>Implementation of DNA Cryptography using IBROS Cypher</h3>
+    <p>Invented a new set of techniques to implement DNA Cryptography for secure data communication.</p>
+    <div class="tags">
+     <span class="tag">React</span>
+     <span class="tag">Node.js</span>
+     <span class="tag">UX</span>
+    </div>
+   </div>
+   <a class="btn" href="https://github.com/ChandaSourav/IBROS-Cypher"target="_blank" rel="noopener noreferrer">Case study ↗</a>
+  </article>
+
+  <article class="card project">
+   <div>
+    <div class="project-top">
+     <img src="assets/logo_3.png" alt="Predicto">
+    </div>
+    <h3>Predicto - Review Rate Predictor</h3>
+    <p>A chrome extension that automatically puts the star ratings of an E-commerce product by analyzing the product review written by the customer.</p>
+    <div class="tags">
+     <span class="tag">React</span>
+     <span class="tag">Three.js</span>
+     <span class="tag">CMS</span>
+    </div>
+   </div>
+   <a class="btn" href="https://github.com/ChandaSourav/predicto"target="_blank" rel="noopener noreferrer">Case study ↗</a>
+  </article>
+
+ </div>
+</div>
+</section>
+
+<section id="education" class="reveal">
+<div class="container">
+ <div class="section-head"><div><div class="eyebrow">03 — Education</div><h2>My academic journey.</h2></div><p class="section-desc">From foundational studies to postgraduate research, each step has shaped how I learn, build and investigate new ideas.</p></div>
+ <div class="card experience">
+  <div class="job"><div class="date">Aug 2023 — Jun 2025</div><div><h3>M.Tech in Computer Science & Engineering · University of Calcutta</h3><p>Postgraduate studies with a focus aligned with computing, development and research interests.</p></div></div>
+  <div class="job"><div class="date">Aug 2020 — Jul 2023</div><div><h3>B.Tech in Computer Science & Engineering · Maulana Abul Kalam Azad University of Technology</h3><p>Undergraduate engineering studies building a strong foundation in computer science and technology.</p></div></div>
+  <div class="job"><div class="date">Aug 2017 — Jul 2020</div><div><h3>Diploma in Computer Science & Technology · West Bengal State Council of Technical & Vocational Education and Skill Development</h3><p>Technical education and practical foundation before continuing into engineering studies.</p></div></div>
+  <div class="job"><div class="date">May 2017</div><div><h3>Higher Secondary Education · West Bengal Council of Higher Secondary Education</h3><p>Higher Secondary education with a focus on building a strong academic foundation for higher studies</p></div></div>
+   <div class="job"><div class="date">May 2015</div><div><h3>Secondary Education · West Bengal Board of Secondary Education</h3><p>Secondary education providing a strong foundation in core academic subjects and preparing for further education.</p></div></div>
+ </div>
+</div>
+</section>
+
+<section id="research" class="reveal">
+<div class="container">
+ <div class="section-head"><div><div class="eyebrow">04 — Research</div><h2>Curious beyond the code.</h2></div><p class="section-desc">Exploring the intersection of software, intelligent systems and security.</p></div>
+ <div class="about">
+  <div class="card about-text"><strong>Research interests</strong><br><br>AI & Machine Learning · Deep Learning · Cryptography · DNA Cryptography · Full-Stack Development</div>
+  <div class="card"><div class="stats"><div class="stat"><b>02+</b><span>Publications</span></div><div class="stat"><b>AI</b><span>Research interest</span></div><div class="stat"><b>DNA</b><span>Cryptography focus</span></div><div class="stat"><b>∞</b><span>Questions to explore</span></div></div></div>
+ </div>
+</div>
+</section>
+
+<section id="contact" class="reveal">
+<div class="container">
+ <div class="contact">
+  <div><div class="eyebrow">05 — Contact</div><h2>Contact me.<br><span class="gradient">Let’s build something.</span></h2></div>
+  <div class="card contact-card"><p>Have a project, collaboration, research idea or opportunity? I’m open to conversations and new challenges.</p><a class="contact-link" href="mailto:souravchanda601@gmail.com"><span>✉ souravchanda601@gmail.com</span></a><span class="social-label">Find me online</span><div class="contact-links"><a class="contact-link" href="https://github.com/ChandaSourav" target="_blank" rel="noopener"><span>GitHub ↗</span></a><a class="contact-link" href="https://www.linkedin.com/in/sourav-chanda/" target="_blank" rel="noopener"><span>LinkedIn ↗</span></a><a class="contact-link" href="https://x.com/_SouravChanda_" target="_blank" rel="noopener"><span>𝕏 / Twitter ↗</span></a></div></div>
+ </div>
+</div>
+
+<div class="coffee-card card">
+  <div class="coffee-icon" aria-hidden="true">☕</div>
+  <div class="coffee-copy">
+    <div class="coffee-eyebrow">SUPPORT MY WORK</div>
+    <h3>Buy me a coffee</h3>
+    <p>If you enjoy my work or find a project useful, you can support me with a coffee.</p>
+  </div>
+  <a class="coffee-btn" href="https://buymeacoffee.com/souravchanda" target="_blank" rel="noopener noreferrer">
+    <span>Buy me a coffee</span><span aria-hidden="true">↗</span>
+  </a>
+</div>
+
+</section>
+</main>
+
+<footer class="container"><span>Created By SouravChanda</span><span>© 2022-2026 All rights reserved.</span></footer>
+
+<script src="js/script.js" defer></script>
+
+<div id="scrollProgress" aria-hidden="true"></div>
+<script src="js/script.js" defer></script>
+<link rel="stylesheet" href="css/style.css">
 </body>
 </html>
