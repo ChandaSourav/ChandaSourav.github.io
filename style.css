@@ -1443,12 +1443,6 @@ section{scroll-margin-top:85px}
   .about-profile-glow{width:82px;height:115px;bottom:28px}
 }
 
-@media (max-width: 620px) {
-    .stat b {
-        font-size: 22px;
-    }
-}
-
 /* Additional motion: keep portrait still, animate the interface instead */
 .coffee-card{
   position:relative;
